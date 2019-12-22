@@ -1,6 +1,7 @@
 .btn {
   font-size: $default-fount-size;
 
+  &,
   &:link,
   &:visited {
     display: inline-block;
@@ -11,6 +12,10 @@
     text-decoration: none;
     text-transform: uppercase;
     transition: all .2s ease-in-out;
+
+    //Change for the button element
+    border: none;
+    cursor: pointer;
   }
 
   &:hover {
@@ -18,9 +23,11 @@
     transform: translateY(-0.5rem);
   }
 
+  &:focus,
   &:active {
     box-shadow: 0 .5rem 2rem rgba($color-black, 0.22);
     transform: translateY(-0.3rem);
+    outline: none;
   }
 
   &--white {
