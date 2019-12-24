@@ -1,5 +1,4 @@
 body {
-  padding: 3rem;
   font-family: Lato, sans-serif;
   line-height: 1.7;
   color: $color-grey-dark;
@@ -9,12 +8,18 @@ body {
   color: $color-white;
   text-transform: uppercase;
 
+
   &--main {
     display: block;
     font-size: 6rem;
     font-weight: 400;
     letter-spacing: 3.5rem;
     animation: moveInRight 1s ease-in-out;
+
+    @include respond(phone) {
+      letter-spacing: 1rem;
+      font-size: 5rem;
+    }
   }
 
   &--sub {

@@ -1,3 +1,20 @@
+/*
+Media Query manager
+
+sized in px:
+0 - 600: phone
+600-900: tab-port - tablet portrait
+900-1200: tab-land - tablet landscape
+1200-1800: current sizes
+1800+: big-desktop - big desktops
+ */
+/* arguments for $breakpoints:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+*/
 @keyframes moveInRight {
   0% {
     transform: translateX(-10rem);
@@ -41,13 +58,33 @@
 html {
   font-size: 62.5%;
 }
-
-body {
-  box-sizing: border-box;
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
 }
 
 body {
+  box-sizing: border-box;
   padding: 3rem;
+}
+@media (max-width: 56.25em) {
+  body {
+    padding: 0;
+  }
+}
+
+body {
   font-family: Lato, sans-serif;
   line-height: 1.7;
   color: #777;
@@ -63,6 +100,12 @@ body {
   font-weight: 400;
   letter-spacing: 3.5rem;
   animation: moveInRight 1s ease-in-out;
+}
+@media (max-width: 37.5em) {
+  .heading-primary--main {
+    letter-spacing: 1rem;
+    font-size: 5rem;
+  }
 }
 .heading-primary--sub {
   display: block;
