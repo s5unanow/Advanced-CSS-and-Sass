@@ -1,3 +1,3 @@
-# Advanced-CSS-and-Sass
+# Markup final
 
-This is a set of educational projects.
+final task for the markup cource.
