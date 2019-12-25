@@ -37,7 +37,7 @@
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
-    background: radial-gradient($color-primary-light, $color-primary-dark);
+    background: radial-gradient($mars-primary-light, $mars-primary-midtone);
     z-index: 1100;
     transition: transform .8s cubic-bezier(.86, 0, .07, 1);
 
@@ -103,7 +103,7 @@
     &:hover,
     &:active {
       background-position: 100%;
-      color: $color-primary;
+      color: $mars-primary-midtone;
       transform: translateX(1rem);
     }
   }

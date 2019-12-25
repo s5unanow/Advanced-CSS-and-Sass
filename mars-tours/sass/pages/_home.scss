@@ -13,9 +13,9 @@
   padding: 20rem 0;
   background-image: linear-gradient(
                   to right bottom,
-                  rgba($color-primary-light, 0.8),
-                  rgba($color-primary-dark, 0.8)),
-  url("../img/nat-4.jpg");
+                  rgba($mars-primary-light, 0.7),
+                  rgba($mars-primary-midtone, 0.7)),
+  url("../img/mars-4.jpg");
   background-size: cover;
   transform: skewY(-7deg);
 
@@ -50,7 +50,7 @@
 
 .section-book {
   padding: 15rem 0;
-  background: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+  background: linear-gradient(to right bottom, $mars-primary-light, $mars-primary-midtone);
 
   @include respond(tab-port) {
     padding: 10rem 0;
@@ -61,7 +61,7 @@
   background-image: linear-gradient(110deg, rgba($color-white, .9),
                                     rgba($color-white, .9) 50%,
                                     transparent 50%),
-                              url("../img/nat-10.jpg");
+                              url("../img/mars-10.jpg");
   background-size: cover;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba($color-black, .15);

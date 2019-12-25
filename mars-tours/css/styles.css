@@ -127,7 +127,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.2rem;
-  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  background-image: linear-gradient(to right, #de8136, #B53E21);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #fff;
@@ -250,11 +250,11 @@ body {
 }
 .btn--green {
   position: relative;
-  background: #55c57a;
+  background: #de8136;
   color: #fff;
 }
 .btn--green::after {
-  background: #55c57a;
+  background: #de8136;
 }
 .btn::after {
   content: "";
@@ -279,15 +279,15 @@ body {
 
 .btn-text:link, .btn-text:visited {
   display: inline-block;
-  border-bottom: 1px solid #55c57a;
+  border-bottom: 1px solid #de8136;
   padding: 3px;
   text-decoration: none;
   font-size: 1.6rem;
-  color: #55c57a;
+  color: #de8136;
   transition: all 0.2s;
 }
 .btn-text:hover {
-  background: #55c57a;
+  background: #de8136;
   color: #fff;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(-2px);
@@ -346,13 +346,13 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 .card__picture--1 {
-  background-image: url("../img/nat-5.jpg"), linear-gradient(to right bottom, #ffb900, #ff7730);
+  background-image: url("../img/mars-6.jpg"), linear-gradient(to right bottom, rgba(255, 185, 0, 0.5), rgba(255, 119, 48, 0.5));
 }
 .card__picture--2 {
-  background-image: url("../img/nat-6.jpg"), linear-gradient(to right bottom, #7ed56f, #28b485);
+  background-image: url("../img/mars-7.jpg"), linear-gradient(to right bottom, rgba(126, 213, 111, 0.7), rgba(40, 180, 133, 0.7));
 }
 .card__picture--3 {
-  background-image: url("../img/nat-7.jpg"), linear-gradient(to right bottom, #2998ff, #5643fa);
+  background-image: url("../img/mars-5.jpg"), linear-gradient(to right bottom, rgba(41, 152, 255, 0.5), rgba(86, 67, 250, 0.5));
 }
 .card__heading {
   position: absolute;
@@ -477,7 +477,7 @@ body {
 .feature-box__icon {
   font-size: 6rem;
   margin-bottom: 0.5rem;
-  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  background-image: linear-gradient(to right, #de8136, #B53E21);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #fff;
@@ -559,7 +559,7 @@ body {
   display: inline-block;
   width: 3rem;
   height: 3rem;
-  border: 5px solid #7ed56f;
+  border: 5px solid #de8136;
   border-radius: 50%;
 }
 .form__radio-button::after {
@@ -572,7 +572,7 @@ body {
   width: 1.3rem;
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  background: #7ed56f;
+  background: #de8136;
   opacity: 0;
   transition: opacity 0.2s;
 }
@@ -632,10 +632,15 @@ body {
   }
 }
 .gallery__photo:hover {
-  outline: 1.5rem solid #55c57a;
+  outline: 1.5rem solid #de8136;
   transform: scale(1.1) translateY(-0.5rem);
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
   z-index: 20;
+}
+@media (min-width: 112.5em) {
+  .gallery__photo:hover {
+    transform: scale(1.4);
+  }
 }
 .gallery:hover .gallery__photo:not(:hover) {
   transform: scale(0.9);
@@ -785,7 +790,7 @@ body {
 }
 .story__image {
   height: 100%;
-  transform: translateX(-4rem) scale(1.4);
+  transform: translateX(-6rem) scale(1.4);
   transition: all 0.5s;
 }
 .story__text {
@@ -954,7 +959,7 @@ body {
 .header {
   position: relative;
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/hero.jpg");
+  background-image: linear-gradient(to right bottom, rgba(222, 129, 54, 0.8), rgba(181, 62, 33, 0.8)), url("../img/mars.jpg");
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   background-position: top;
   background-size: cover;
@@ -1017,7 +1022,7 @@ body {
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
-  background: radial-gradient(#7ed56f, #28b485);
+  background: radial-gradient(#de8136, #B53E21);
   z-index: 1100;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
 }
@@ -1077,7 +1082,7 @@ body {
 }
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
-  color: #55c57a;
+  color: #B53E21;
   transform: translateX(1rem);
 }
 .navigation__checkbox:checked ~ .navigation__background {
@@ -1155,7 +1160,7 @@ body {
 .section-features {
   margin-top: -10rem;
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/nat-4.jpg");
+  background-image: linear-gradient(to right bottom, rgba(222, 129, 54, 0.7), rgba(181, 62, 33, 0.7)), url("../img/mars-4.jpg");
   background-size: cover;
   transform: skewY(-7deg);
 }
@@ -1191,7 +1196,7 @@ body {
 
 .section-book {
   padding: 15rem 0;
-  background: linear-gradient(to right bottom, #7ed56f, #28b485);
+  background: linear-gradient(to right bottom, #de8136, #B53E21);
 }
 @media (max-width: 56.25em) {
   .section-book {
@@ -1200,7 +1205,7 @@ body {
 }
 
 .book {
-  background-image: linear-gradient(110deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9) 50%, transparent 50%), url("../img/nat-10.jpg");
+  background-image: linear-gradient(110deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9) 50%, transparent 50%), url("../img/mars-10.jpg");
   background-size: cover;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);

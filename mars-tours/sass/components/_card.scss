@@ -57,18 +57,18 @@
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
     &--1 {
-      background-image: url("../img/nat-5.jpg"),
-        linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+      background-image: url("../img/mars-6.jpg"),
+        linear-gradient(to right bottom, rgba($color-secondary-light, .5), rgba($color-secondary-dark, .5));
     }
 
     &--2 {
-      background-image: url("../img/nat-6.jpg"),
-        linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+      background-image: url("../img/mars-7.jpg"),
+        linear-gradient(to right bottom, rgba($color-primary-light, .7), rgba($color-primary-dark, .7));
     }
 
     &--3 {
-      background-image: url("../img/nat-7.jpg"),
-        linear-gradient(to right bottom, $color-ternary-light, $color-ternary-dark);
+      background-image: url("../img/mars-5.jpg"),
+        linear-gradient(to right bottom, rgba($color-ternary-light, .5), rgba($color-ternary-dark, .5));
     }
   }
 

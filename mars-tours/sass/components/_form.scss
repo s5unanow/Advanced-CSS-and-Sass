@@ -79,7 +79,7 @@
     display: inline-block;
     width: 3rem;
     height: 3rem;
-    border: 5px solid $color-primary-light;
+    border: 5px solid $mars-primary-light;
     border-radius: 50%;
 
     &::after {
@@ -92,7 +92,7 @@
       width: 1.3rem;
       border-radius: 50%;
       transform: translate(-50%, -50%);
-      background: $color-primary-light;
+      background: $mars-primary-light;
       opacity: 0;
       transition: opacity .2s;
     }
