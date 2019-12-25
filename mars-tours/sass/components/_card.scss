@@ -1,7 +1,11 @@
 .card {
   position: relative;
-  perspective: 150rem;
+  //perspective: 150rem;
   height: 52rem;
+
+  @supports (perspective: 150rem) {
+    perspective: 150rem;
+}
 
   &__side {
     position: absolute;
