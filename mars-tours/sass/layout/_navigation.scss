@@ -68,9 +68,15 @@
 
   &__list {
     @include center;
-    width: 100%;
-    list-style-type: none;
-    text-align: center;
+    //width: 100%;
+    list-style-image: url("../img/nav-rocket.svg");
+    //text-align: center;
+    font-size: 5rem;
+
+    @include respond(phone) {
+      width: 100%;
+      text-align: center;
+    }
   }
 
   &__item {
@@ -81,6 +87,10 @@
     //display: none;
     //width: 0;
     display: inline-block;
+
+    @include respond(phone) {
+      //width: 100%;
+    }
 
     &:link,
     &:visited {
@@ -96,7 +106,7 @@
 
       span {
         margin-right: 1rem;
-        display: inline-block;
+        display: none;
       }
     }
 
@@ -106,6 +116,7 @@
       color: $mars-primary-midtone;
       transform: translateX(1rem);
     }
+
   }
 
 

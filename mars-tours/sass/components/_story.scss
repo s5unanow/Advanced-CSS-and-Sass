@@ -4,7 +4,7 @@
   padding: 6rem;
   padding-left: 9rem;
   box-shadow: 0 3rem 6rem rgba($color-black, .1);
-  background: rgba($color-white, .5);
+  background: rgba($color-grey-light-1, .2);
   font-size: $default-fount-size;
   transform: skewX(-12deg);
 
@@ -16,6 +16,7 @@
 
   @include respond(phone) {
     transform: skewX(0);
+    padding-right: 1.5rem;
   }
 
   &__shape {
@@ -45,6 +46,7 @@
 
   &__text {
     transform: skewX(12deg);
+    color: $color-grey-dark-3;
 
     @include respond(phone) {
       transform: skewX(0);
